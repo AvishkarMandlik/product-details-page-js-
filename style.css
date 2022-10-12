@@ -9,13 +9,17 @@ body{
     border: 1px solid grey;
     border-radius: 20px;
     box-shadow: 2px 2px 15px 2px black;
-    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
-.product{
-    background-color: #ffffff;
-    margin-top: 29px;
-    margin-left: 10px;
-    padding: auto;
-    max-width: 130px;
-    max-height: 250px;
+.t-shirt img{
+        height: 300px;   
+        border: 1px solid red; 
+}
+
+.t-shirt-info{
+    height: 300px;
+    width: 200px;
+    border: 1px solid red; 
 }
