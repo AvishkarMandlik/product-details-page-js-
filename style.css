@@ -1,22 +1,21 @@
 body{
-
+    background-color: antiquewhite;
 }
 .maincontainer{
+    background-color: #ffffff;
     margin-left: 150px;
     width: 350px;
     height: 300px;
     border: 1px solid grey;
     border-radius: 20px;
-    box-shadow: 3px 2px 15px 3px black;
+    box-shadow: 2px 2px 15px 2px black;
     position: fixed;
 }
 .product{
-    margin-top: 25px;
+    background-color: #ffffff;
+    margin-top: 29px;
     margin-left: 10px;
     padding: auto;
-    width: 200px;
-    height: 250px;
-    border: 1px solid grey;
-    border-radius: 20px;
-    box-shadow: 3px 2px 15px 3px gray;
+    max-width: 130px;
+    max-height: 250px;
 }
