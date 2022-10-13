@@ -25,9 +25,11 @@ body{
     flex-direction: row;
     justify-content: space-around;
 }
-span{
+.size-word{
+    font-size: 20px;
     border-bottom: 2px solid gray;
-    border-radius: 5px;
+    border-radius: 4px;
+    background-color: #ffffb3;
 }
 .onclickevent{
     display: flex;
@@ -36,6 +38,7 @@ span{
     padding: 0px;
 }
 .buttons{
+    color: black;
     margin-top: 20px;
     height: 20px;
     border: 1px solid grey;
@@ -43,7 +46,8 @@ span{
     background-color: lightgray;
 }
 .btn{
-    margin-top: 10px;
+    background-color: #ff9900;
+    color: black;
     margin-left: 10px;
     border-radius: 8px;
     border: 1px solid black;
