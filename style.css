@@ -15,13 +15,10 @@ body{
 }
 .t-shirt img{
         height: 300px;   
-        border: 1px solid red; 
 }
-
 .t-shirt-info{
     height: 300px;
     width: 200px;
-    border: 1px solid red; 
 }
 .size{
     display: flex;
@@ -30,4 +27,26 @@ body{
 }
 span{
     border-bottom: 2px solid gray;
+    border-radius: 5px;
+}
+.onclickevent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0px;
+}
+.buttons{
+    margin-top: 20px;
+    height: 20px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    background-color: lightgray;
+}
+.btn{
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 8px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 3px 1px ;
+    font-size: 14px;
 }

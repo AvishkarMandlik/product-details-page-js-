@@ -16,18 +16,44 @@
             <p>
                 <b>Levi's® Men's Cream Polo T-Shirt </b>
                 </br>
-                </br> 
-                ₹1,999.00&nbsp;<span style="font-size: 8px;">More Colours Available</span>
-                </br> 
                 </br>
-                write a review ★★★★⭐ 
+                ₹1,999.00&nbsp;<span style="font-size: 8px;">More Colours Available</span>
+                </br>
+                write a review 🌟🌟🌟🌟⭐
             </p>
             select size :
             <div class="size">
-            <span>L</span> <span>M</span> <span>X</span> <span>XL</span> 
+                <span>L</span> <span>M</span> <span>X</span> <span>XL</span>
+            </div>
+            <span style="border:none">Select Quantities</span>
+            <div class="onclickevent">  
+                <button onclick="dec()" class="buttons">-</button> 
+                <h3 id="counter">1</h3>
+                <button onclick="inc()" class="buttons">+</button>
+                <button onclick="reset()" class="buttons">Reset</button>  
+            </div>
+            <div>
+                <button class="btn" style="">Add to cart</button>
+                <button class="btn">Buy Now</button>
             </div>
         </div>
     </div>
+
+    <script>
+        let count=1;
+        function inc(){
+            count++;
+            document.getElementById("counter").innerHTML = count;
+        }
+        function dec(){
+            count--;
+            document.getElementById("counter").innerHTML = count;
+        }
+        function reset(){
+            count = 1;
+            document.getElementById("counter").innerHTML = count;
+        }
+    </script>
 </body>
 
 </html>
